@@ -57,13 +57,16 @@ header {
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
-
-
-.profile {
+.profile-logo {
   display: flex;
   align-items: center;
   cursor: pointer;
   column-gap: 0.5rem;
+  font-size: large;
+  color: #000000;
+  background: #f7c00f;
+  padding: 7px;
+  border-radius: 50%;
 }
 .profile img {
   height: 40px;
@@ -145,12 +148,12 @@ header {
     align-items: center;
     justify-content: center;
     background-color: rgb(245, 245, 245);
-    padding: 17px 40px;
+    padding: 20px 42px;
     transition: 0.5s;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
       rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
       rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-    gap: 30px;
+    gap: 27px;
   }
   #menu-icon {
     display: block;
@@ -197,7 +200,8 @@ header {
   }
   .home-text .btn {
     position: absolute;
-    left: 27%;
+    left: 20%;
+    top: 0%;
   }
 }
 .container img {
@@ -210,8 +214,10 @@ header {
 }
 .home-text span {
   font-size: 35px;
-  font-weight: 300;
+  font-weight: 400;
   color: rgb(97, 245, 97);
+  position: relative;
+  left: 17%;
 }
 .home-text h1 {
   text-align: center;
@@ -1027,7 +1033,7 @@ header {
 }
 .content img {
   width: 500px;
-  height: 500px;
+  height: auto;
   object-fit: cover;
   border-radius: 20px;
   -webkit-box-shadow: 5px 5px 8px #c6c6c6, -5px -5px 8px #ffffff;
