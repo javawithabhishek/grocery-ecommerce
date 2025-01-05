@@ -61,8 +61,9 @@ header {
   font-size: large;
   color: #000000;
   background: #f7c00f;
-  padding: 7px;
+  padding: 9px;
   border-radius: 50%;
+  box-shadow: 5px 5px 9px #c9c3c3, -5px -5px 9px #ffffff;
 }
 .profile img {
   height: 40px;
